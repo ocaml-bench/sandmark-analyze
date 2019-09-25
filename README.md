@@ -9,5 +9,5 @@ runs in Jupyter notebook.
 $ git clone https://github.com/kayceesrk/sandmark-analyze
 $ cd sandmark-analyze
 $ docker run -v `pwd`:/analyze -p 8888:8888 -it kayceesrk/sandmark:0.1.0
-$ jupyter run --ip=0.0.0.0 --allow-root
+$ jupyter notebook --ip=0.0.0.0 --allow-root
 ```
