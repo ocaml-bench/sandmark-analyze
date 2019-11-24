@@ -1,0 +1,6 @@
+name: sandmark-analyze
+channels:
+  - conda-forge
+dependencies:
+  - seaborn
+  - pandas
